@@ -3,7 +3,10 @@ var firebaseConfig = {
   authDomain: "PROJECT.firebaseapp.com",
 };
 
-firebase.initializeApp(firebaseConfig);
+<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+<script src="script.js"></script>
+
 
 function loginGoogle() {
   var provider = new firebase.auth.GoogleAuthProvider();
